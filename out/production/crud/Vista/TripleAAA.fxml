@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.TripleAAAController">
+   <children>
+      <MenuBar layoutY="2.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Clientes">
+            <items>
+              <MenuItem fx:id="Txt_registro" mnemonicParsing="false" onAction="#Registro" text="Registro" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Municipios">
+            <items>
+              <MenuItem fx:id="txt_codigo" mnemonicParsing="false" onAction="#btn_codigo" text="Codigo" />
+                  <MenuItem fx:id="txt_nombre" mnemonicParsing="false" onAction="#btn_codigo" text="Nombre" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Barrrio">
+            <items>
+              <MenuItem fx:id="Txt_B_c" mnemonicParsing="false" onAction="#Txt_B_c" text="Codigo" />
+                  <MenuItem fx:id="Txt_B_n" mnemonicParsing="false" onAction="#Txt_B_n" text="Nombre" />
+                  <MenuItem fx:id="Txt_B_Mu" mnemonicParsing="false" onAction="#Txt_B_Mu" text="Municipios" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Tarifa" />
+            <Menu mnemonicParsing="false" text="Lectura" />
+            <Menu mnemonicParsing="false" text="Factura" />
+        </menus>
+      </MenuBar>
+      <Accordion layoutX="72.0" layoutY="95.0" />
+   </children>
+</Pane>
