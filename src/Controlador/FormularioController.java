@@ -75,9 +75,6 @@ public class FormularioController implements Initializable {
 
     }
 
-
-
-
     @FXML
     void btn_Guardar(ActionEvent event) {
         int referencia = Integer.parseInt(this.Txt_referencia.getText());
@@ -163,7 +160,8 @@ public class FormularioController implements Initializable {
         Txt_nombres.setText("");
         Txt_Apellidos.setText("");
         Txt_nombres.setText("");
-        //Txt_estra.setSelected Index(0);
+        cmb_muni(event);
+        // Txt_estra.setSelected Index(0);
     }
 
 }
