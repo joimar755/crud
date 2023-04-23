@@ -15,7 +15,7 @@ public class Metodo {
         try {
             FileWriter fw;
             PrintWriter pw;
-            fw = new FileWriter("C://Users//Joimar//Documents//crud//tripleaaa.txt", true);
+            fw = new FileWriter("tripleaaa.txt", true);
             pw = new PrintWriter(fw);
             // BufferedWriter bw = new BufferedWriter(fw);
             // PrintWriter pw = new PrintWriter(bw);
