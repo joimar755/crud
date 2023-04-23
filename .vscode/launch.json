@@ -10,7 +10,7 @@
             "request": "launch",
             "mainClass": "Modelo.App",
             "projectName": "crud_fa153d2b",
-            "vmArgs":"--module-path \"C:/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs":"--module-path \/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -18,7 +18,7 @@
             "request": "launch",
             "mainClass": "Controlador.App",
             "projectName": "crud_fa153d2b",
-            "vmArgs": "--module-path \"C:/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -26,7 +26,7 @@
             "request": "launch",
             "mainClass": "Controlador.TripleAAAController",
             "projectName": "crud_fa153d2b",
-            "vmArgs": "--module-path \"C:/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -34,7 +34,7 @@
             "request": "launch",
             "mainClass": "Vista.App",
             "projectName": "crud_fa153d2b",
-            "vmArgs": "--module-path \"C:/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -42,7 +42,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "crud_fa153d2b",
-            "vmArgs": "--module-path \"C:/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "name": "Java",
@@ -83,7 +83,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "prueba_857d4fd3",
-            "vmArgs": "--module-path \"C:/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
