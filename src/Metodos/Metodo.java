@@ -32,6 +32,7 @@ public class Metodo {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "archivo no  guardado");
         }
+
     }
 
 }

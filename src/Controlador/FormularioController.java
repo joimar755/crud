@@ -96,13 +96,15 @@ public class FormularioController implements Initializable {
         cliente.setSexo(sexo1);
 
         m.guardarTXT(cliente);
+        campovacio();
         limpiarCampos();
+
 
     }
 
     @FXML
     void btn_nuevo(ActionEvent event) {
-
+        limpiarCampos();
     }
 
     @FXML
@@ -160,8 +162,21 @@ public class FormularioController implements Initializable {
         Txt_nombres.setText("");
         Txt_Apellidos.setText("");
         Txt_nombres.setText("");
-        cmb_muni(event);
-        // Txt_estra.setSelected Index(0);
+        Txt_Muni.getSelectionModel().clearSelection();
+        Txt_estra.getSelectionModel().clearSelection();
+        Txt_Barrio.getSelectionModel().clearSelection();
+
+
+
+    }
+    public void  campovacio() {
+      if (cliente.getReferencia().equals("")){
+         JOptionPane.showMessageDialog(null,"error");
+
+      }
+
+
+
     }
 
 }
